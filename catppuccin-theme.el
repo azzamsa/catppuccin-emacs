@@ -310,14 +310,14 @@ FLAVOR defaults to the value of `catppuccin-flavor'."
 
         (ctp-current   (if (eq catppuccin-flavor 'latte)
                          (catppuccin-darken (catppuccin-color 'base) 5)
-                         (catppuccin-lighten (catppuccin-color 'base) 5))
+                         (catppuccin-color 'surface0))
           (catppuccin-quantize-color
             (if (eq catppuccin-flavor 'latte)
               (catppuccin-darken (catppuccin-color 'base) 5)
               (catppuccin-lighten (catppuccin-color 'base) 5))))
         (ctp-selection (if (eq catppuccin-flavor 'latte)
                          (catppuccin-darken (catppuccin-color 'base) 12)
-                         (catppuccin-lighten (catppuccin-color 'base) 17))
+                         (catppuccin-color 'surface0))
           (catppuccin-quantize-color
             (if (eq catppuccin-flavor 'latte)
               (catppuccin-darken (catppuccin-color 'base) 12)
